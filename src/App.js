@@ -61,6 +61,12 @@ class App extends Component {
               "degree": "Software Engineering Immersive",
               "graduated": "October 2020",
               "description": "Three-month, 500-hour full-time and full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies."
+            },
+            {
+              "school": "Auburn University of Montgomery",
+              "degree": "Information Sciences",
+              "graduated": "2004-2006",
+              "description": "Completed 48 credits towards BA"
             }
           ],
           "work": [
