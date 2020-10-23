@@ -105,6 +105,7 @@ header .banner-text h3 span,
 header .banner-text h3 a {
    color: #F06000;
    font-weight: 900;
+   text-shadow: 1px 2px 1px rgba(0, 0, 0, .5);
 }
 header .banner-text hr {
    width: 60%;
@@ -238,8 +239,8 @@ ul#nav li.current a { color: #F06000; }
 }
 #about .profile-pic {
    position: relative;
-   width: 120px;
-   height: 120px;
+   width: 200px;
+   height: 200px;
    border-radius: 100%;
 }
 #about .contact-details { width: 41.66667%; }
