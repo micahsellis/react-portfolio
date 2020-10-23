@@ -67,15 +67,22 @@ class Resume extends Component {
                 <li><i class="devicon-javascript-plain"></i></li>
                 <li><i class="devicon-html5-plain-wordmark"></i></li>
                 <li><i class="devicon-css3-plain-wordmark"></i></li>
-                <li><i class="devicon-nodejs-plain"></i></li>
+                <li><i class="devicon-nodejs-plain-wordmark"></i></li>
                 <li><i class="devicon-mongodb-plain-wordmark"></i></li>
-                <li><i class="devicon-express-original"></i></li>
+                <li><i class="devicon-express-original-wordmark"></i></li>
                 <li><i class="devicon-bootstrap-plain-wordmark"></i></li>
                 <li><i class="devicon-django-plain"></i></li>
                 <li><i class="devicon-python-plain-wordmark"></i></li>
                 <li><i class="devicon-postgresql-plain-wordmark"></i></li>
                 <li><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
                 <li><i class="devicon-google-plain"></i></li>
+                <li><i class="devicon-git-plain-wordmark"></i></li>
+                <li><i class="devicon-github-plain-wordmark"></i></li>
+                <li><i class="devicon-heroku-plain-wordmark"></i></li>
+                <li><i class="devicon-jquery-plain-wordmark"></i></li>
+                <li><i class="devicon-sass-original"></i></li>
+                <li><i class="devicon-trello-plain-wordmark"></i></li>
+                <li><i class="devicon-npm-original-wordmark"></i></li>
 					</ul>
 				</div>
 			</div>

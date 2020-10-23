@@ -8,7 +8,6 @@ class Portfolio extends Component {
         var projectImage = 'images/portfolio/'+projects.image;
         return <div key={projects.title} className="columns portfolio-item">
            <div className="item-wrap">
-            <a target="_blanK" rel="noopener noreferrer" href={projects.url} title={projects.title}>
                <img alt={projects.title} src={projectImage} />
                <div className="overlay">
                   <div className="portfolio-item-meta">
@@ -16,7 +15,11 @@ class Portfolio extends Component {
                      <p>{projects.category}</p>
                   </div>
                 </div>
-              <div className="link-icon"><i className="fa fa-link"></i></div>
+            <a className="link-tag" target="_blanK" rel="noopener noreferrer" href={projects.url} title={projects.title}>
+              <div className="link-icon"><i className="fa fa-external-link"></i></div>
+            </a>
+            <a className="link-tag" target="_blanK" rel="noopener noreferrer" href={projects.giturl} title={projects.title + ' github'}>
+              <div className="git-icon"><i class="devicon-github-plain-wordmark"></i></div>
             </a>
           </div>
         </div>

@@ -54,7 +54,7 @@ class App extends Component {
           ]
         },
         "resume": {
-          "skillmessage": "Here you can create a short write-up of your skills to show off to employers",
+          "skillmessage": "Here are just some of the languages I have learned to code with",
           "education": [
             {
               "school": "General Assembly Immersive Program",
@@ -90,31 +90,36 @@ class App extends Component {
               "title": "Get Hired",
               "category": "An app to help track your job search progress (ReactJS, MongoDB, NodeJS, ExpressJS, BootStrap)",
               "image": "pic01.png",
-              "url": "https://get-hired-now.herokuapp.com"
+              "url": "https://get-hired-now.herokuapp.com",
+              "giturl": "https://github.com/micahsellis/Get-Hired"
             },
             {
               "title": "Line Guide",
               "category": "Save time by checking how long the wait is to get in anywhere (Django, Python, YelpAPI, PostgreSQL, AmazonWebServices, Materialize)",
               "image": "pic02.png",
-              "url": "https://lineguide.herokuapp.com"
+              "url": "https://lineguide.herokuapp.com",
+              "giturl": "https://github.com/micahsellis/lineguide"
             },
             {
               "title": "Drink Machine",
               "category": "Find new cocktail recipes or submit your own! (MongoDB, NodeJS, ExpressJS, Materialize, Google OAuth)",
               "image": "pic03.png",
-              "url": "https://drinks-machine.herokuapp.com"
+              "url": "https://drinks-machine.herokuapp.com",
+              "giturl": "https://github.com/micahsellis/Drink-Machine"
             },
             {
               "title": "Mongoose Flights",
               "category": "A flight tracker built on the mongoose platform (Mongoose, MongoDB, NodeJS, ExpressJS, CSS3)",
               "image": "pic04.png",
-              "url": "https://mongooseflights.herokuapp.com"
+              "url": "https://mongooseflights.herokuapp.com",
+              "giturl": "https://github.com/micahsellis/mongoose-flights"
             },
             {
               "title": "CyberPunk Connect4",
               "category": "An updated UI to the classic Connect 4 Game (HTML, CSS, JavaScript)",
               "image": "pic05.png",
-              "url": "https://micahsellis.github.io/Connect4/"
+              "url": "https://micahsellis.github.io/Connect4/",
+              "giturl": "https://github.com/micahsellis/Connect4"
             }
           ]
         },

@@ -19,8 +19,9 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright 2020 Micah Ellis </li>
-              <li>Images - &copy; Copyright 2020 Micah Ellis</li>
+              <li>Template Provided By - &copy; Copyright 2017 Tim Baker</li>
+              <li>Customized by Micah ELlis</li>
+              <li>All Images - &copy; Copyright 2020 Micah Ellis</li>
            </ul>
 
         </div>
