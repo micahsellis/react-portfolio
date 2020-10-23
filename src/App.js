@@ -123,7 +123,7 @@ class App extends Component {
               "user": "Doug Leinen"
             },
             {
-              "text": "Micah always rejuvenated classmates with fresh virtual backgrounds AND great coding skills",
+              "text": "Micah always rejuvenated classmates with fresh backgrounds AND great coding skills",
               "user": "Stephen Yi"
             }
           ]
