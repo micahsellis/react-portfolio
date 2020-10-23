@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
-import $ from 'jquery';
+// import ReactGA from 'react-ga';
+// import $ from 'jquery';
 import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
@@ -39,7 +39,7 @@ class App extends Component {
             "state": "CO"
           },
           "website": "http://www.micahellis.codes",
-          "resumedownload": "/micah_ellis_resume.pdf",
+          "resumedownload": "/react-portfolio/pdf/micah_ellis_resume.pdf",
           "social": [
             {
               "name": "linkedin",
@@ -119,7 +119,7 @@ class App extends Component {
               "user": "Stephanie Rinehart"
             },
             {
-              "text": "That Micah Ellis must be one of the most brilliant developers I've ever met! I'm certain one day we'll work at Google together. It is astonishing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of a bootcamp program and have zero one the job developer experience but I am confident he will be a top dev in no time!",
+              "text": "That Micah Ellis must be one of the most brilliant developers I've ever met! I'm certain one day we'll work at Google together. It is astonishing that nobody has hired him yet. Hey you, you should hire this guy, he may be fresh out of a bootcamp program and have zero on the job developer experience but I am confident he will be a top dev in no time!",
               "user": "Doug Leinen"
             },
             {
