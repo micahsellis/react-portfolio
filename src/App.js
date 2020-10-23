@@ -39,7 +39,7 @@ class App extends Component {
             "state": "CO"
           },
           "website": "http://www.micahellis.codes",
-          "resumedownload": "/react-portfolio/pdf/micah_ellis_resume.pdf",
+          "resumedownload": "/pdf/micah_ellis_resume.pdf",
           "social": [
             {
               "name": "linkedin",
