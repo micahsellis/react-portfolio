@@ -327,7 +327,7 @@ ul#nav li.current a { color: #F06000; }
 
 .skills li {
    font-size: 4em;
-   margin: .25em;
+   margin: .25em .5em .25em 0;
 }
 
 /* .bars {
