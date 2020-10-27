@@ -7,8 +7,6 @@ const Contact = ({ data }) => {
    // const [email, setEmail] = useState('');
    const [message, setMessage] = useState('');
 
-   console.log(data)
-
     const handleClick = (e) => {
        e.preventDefault();
       window.open(`mailto:micahsellis@gmail.com?subject=${subject}&body=${name}: ${message}`);
@@ -42,7 +40,7 @@ const Contact = ({ data }) => {
 
                   <div>
 						   <label htmlFor="contactName">Name <span className="required">*</span></label>
-						   <input value={name} type="text" defaultValue="" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)}/>
+						   <input value={name} type="text" size="35" id="contactName" name="contactName" onChange={e => setName(e.target.value)}/>
                   </div>
 
                   {/* <div>
@@ -52,7 +50,7 @@ const Contact = ({ data }) => {
 
                   <div>
 						   <label htmlFor="contactSubject">Subject</label>
-						   <input value={subject} type="text" defaultValue="" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)}/>
+						   <input value={subject} type="text" size="35" id="contactSubject" name="contactSubject" onChange={e => setSubject(e.target.value)}/>
                   </div>
 
                   <div>

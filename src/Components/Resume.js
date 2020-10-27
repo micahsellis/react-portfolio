@@ -4,7 +4,6 @@ class Resume extends Component {
   render() {
 
     if(this.props.data){
-      var skillmessage = this.props.data.skillmessage;
       var education = this.props.data.education.map(function(education){
         return <div key={education.school}><h3>{education.school}</h3>
         <p className="info">{education.degree} <span>&bull;</span><em className="date">{education.graduated}</em></p>
@@ -57,32 +56,29 @@ class Resume extends Component {
 
          <div className="nine columns main-col">
 
-            <p>{skillmessage}
-            </p>
-
 				<div className="skill">
               <ul className="skills">
-                <li><i class="devicon-react-original-wordmark"></i></li>
-                <li><i class="devicon-babel-plain"></i></li>
-                <li><i class="devicon-javascript-plain"></i></li>
-                <li><i class="devicon-html5-plain-wordmark"></i></li>
-                <li><i class="devicon-css3-plain-wordmark"></i></li>
-                <li><i class="devicon-nodejs-plain-wordmark"></i></li>
-                <li><i class="devicon-mongodb-plain-wordmark"></i></li>
-                <li><i class="devicon-express-original-wordmark"></i></li>
-                <li><i class="devicon-bootstrap-plain-wordmark"></i></li>
-                <li><i class="devicon-django-plain"></i></li>
-                <li><i class="devicon-python-plain-wordmark"></i></li>
-                <li><i class="devicon-postgresql-plain-wordmark"></i></li>
-                <li><i class="devicon-amazonwebservices-plain-wordmark"></i></li>
-                <li><i class="devicon-google-plain"></i></li>
-                <li><i class="devicon-git-plain-wordmark"></i></li>
-                <li><i class="devicon-github-plain-wordmark"></i></li>
-                <li><i class="devicon-heroku-plain-wordmark"></i></li>
-                <li><i class="devicon-jquery-plain-wordmark"></i></li>
-                <li><i class="devicon-sass-original"></i></li>
-                <li><i class="devicon-trello-plain-wordmark"></i></li>
-                <li><i class="devicon-npm-original-wordmark"></i></li>
+                <li><i className="devicon-react-original-wordmark"></i></li>
+                <li><i className="devicon-babel-plain"></i></li>
+                <li><i className="devicon-javascript-plain"></i></li>
+                <li><i className="devicon-html5-plain-wordmark"></i></li>
+                <li><i className="devicon-css3-plain-wordmark"></i></li>
+                <li><i className="devicon-nodejs-plain-wordmark"></i></li>
+                <li><i className="devicon-mongodb-plain-wordmark"></i></li>
+                <li><i className="devicon-express-original-wordmark"></i></li>
+                <li><i className="devicon-bootstrap-plain-wordmark"></i></li>
+                <li><i className="devicon-django-plain"></i></li>
+                <li><i className="devicon-python-plain-wordmark"></i></li>
+                <li><i className="devicon-postgresql-plain-wordmark"></i></li>
+                <li><i className="devicon-amazonwebservices-plain-wordmark"></i></li>
+                <li><i className="devicon-google-plain"></i></li>
+                <li><i className="devicon-git-plain-wordmark"></i></li>
+                <li><i className="devicon-github-plain-wordmark"></i></li>
+                <li><i className="devicon-heroku-plain-wordmark"></i></li>
+                <li><i className="devicon-jquery-plain-wordmark"></i></li>
+                <li><i className="devicon-sass-original"></i></li>
+                <li><i className="devicon-trello-plain-wordmark"></i></li>
+                <li><i className="devicon-npm-original-wordmark"></i></li>
 					</ul>
 				</div>
 			</div>

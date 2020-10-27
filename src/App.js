@@ -28,7 +28,7 @@ class App extends Component {
         "main": {
           "name": "Micah Ellis",
           "occupation": "Full-Stack Software Developer",
-          "description": "novice photographer, early adoptor, and team leader",
+          "description": "novice photographer, early adopter, and team leader",
           "image": "ME.jpg",
           "bio": "My passion for emerging technologies pushes me to continually learn new things. My photography background gives me the ability to analyze problems from different perspectives and makes me somewhat of a perfectionist. Years of experience in being a retail manager have taught me that I am able to lead a team, manage expenses, and provide exceptional customer service simultaneously. My experiences have netted me the tools needed to lead a team while continually adapting to complex situations and new technologies.",
           "contactmessage": "Get in touch with me!",
@@ -54,7 +54,6 @@ class App extends Component {
           ]
         },
         "resume": {
-          "skillmessage": "Here are just some of the languages I have learned to code with",
           "education": [
             {
               "school": "General Assembly Immersive Program",
@@ -153,8 +152,8 @@ class App extends Component {
       <div className="App">
         <Header data={this.state.resumeData.main}/>
         <About data={this.state.resumeData.main}/>
-        <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
+        <Resume data={this.state.resumeData.resume}/>
         <Testimonials data={this.state.resumeData.testimonials}/>
         <Contact data={this.state.resumeData.main}/>
         <Footer data={this.state.resumeData.main}/>
