@@ -25,6 +25,11 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>{bio}</p>
+                <div className="row">
+                   <div className="columns">
+                      <h2>My Top Programing Languages</h2>
+                      <p>Python &nbsp; Django &nbsp; JavaScript &nbsp; ReactJS &nbsp; NodeJS &nbsp; Materialize &nbsp; Bootstrap &nbsp; HTML(ES6) &nbsp; CSS</p>
+                   </div></div>
             <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
@@ -41,7 +46,7 @@ class About extends Component {
                          <a target="_blank" rel="noopener noreferrer" href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
                   </p>
                </div>
-            </div>
+                </div>
          </div>
       </div>
 

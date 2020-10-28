@@ -25,7 +25,7 @@ class Portfolio extends Component {
             </div>
             <div className="project-links">
             <a className="project-link" target="_blanK" rel="noopener noreferrer" href={projects.giturl}><div className="git-icon"><i className="devicon-github-plain"></i> GitHub</div></a>
-            <a className="project-link" target="_blanK" rel="noopener noreferrer" href={projects.url} title={projects.title}><div className="link-icon">Project Site <i className="fa fa-external-link-square"></i></div></a>
+            <a className="project-link" target="_blanK" rel="noopener noreferrer" href={projects.url} title={projects.title}><div className="link-icon">Launch   Site <i className="fa fa-external-link-square"></i></div></a>
             </div>
           </div>
       })
