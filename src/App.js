@@ -56,19 +56,25 @@ class App extends Component {
         "resume": {
           "education": [
             {
-              "school": "General Assembly Immersive Program",
-              "degree": "Software Engineering Immersive",
-              "graduated": "October 2020",
-              "description": "Three-month, 500-hour full-time and full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies."
-            },
-            {
               "school": "Auburn University of Montgomery",
               "degree": "Information Sciences",
               "graduated": "2004-2006",
               "description": "Completed 48 credits towards BA"
+            },
+            {
+              "school": "Brewbaker Technology Magnet High School",
+              "degree": "Infromation Technology",
+              "graduated": "2004",
+              "description": "A rigorous and innovative learning environment requiring students to develop the skills to be focused and think critically with an emphasis on time management and organization. The use of technology in all classes amplifies the math/logic-based problem solving of the student to prepare them to succeed in college, career, and beyond."
             }
           ],
           "work": [
+            {
+              "company": "General Assembly Immersive Program",
+              "title": "Software Engineering Immersive",
+              "years": "July 2020 - October 2020",
+              "description": "Three-month, 500-hour full-time and full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies."
+            },
             {
               "company": "Goodwill Industries",
               "title": "Store Manager",

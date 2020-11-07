@@ -38,7 +38,7 @@ class Portfolio extends Component {
 
          <div className="twelve columns collapsed">
 
-            <h1>Check Out Some of My Work</h1>
+            <h1>Check Out Some of My Work!<br></br><span>Due to hosting restrictions it may take up to 30 seconds before some of these pages render<br></br></span>please give them time to load </h1>
 
             <div id="portfolio-wrapper" className="bgrid-halves s-bgrid-halves cf">
                 {projects}
