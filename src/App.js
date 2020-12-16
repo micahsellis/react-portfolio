@@ -12,7 +12,7 @@ import Portfolio from './Components/Portfolio';
 
 class App extends Component {
 
-  constructor(props){
+  constructor(props) {
     super(props);
     this.state = {
       foo: 'bar',
@@ -21,9 +21,9 @@ class App extends Component {
 
   }
 
-  getResumeData(){
+  getResumeData() {
     this.setState({
-      resumeData: 
+      resumeData:
       {
         "main": {
           "name": "Micah Ellis",
@@ -149,20 +149,20 @@ class App extends Component {
 
   }
 
-  componentDidMount(){
+  componentDidMount() {
     this.getResumeData();
   }
 
   render() {
     return (
       <div className="App">
-        <Header data={this.state.resumeData.main}/>
-        <About data={this.state.resumeData.main}/>
-        <Portfolio data={this.state.resumeData.portfolio}/>
-        <Resume data={this.state.resumeData.resume}/>
-        <Testimonials data={this.state.resumeData.testimonials}/>
-        <Contact data={this.state.resumeData.main}/>
-        <Footer data={this.state.resumeData.main}/>
+        <Header data={this.state.resumeData.main} />
+        <About data={this.state.resumeData.main} />
+        <Portfolio data={this.state.resumeData.portfolio} />
+        <Resume data={this.state.resumeData.resume} />
+        <Testimonials data={this.state.resumeData.testimonials} />
+        <Contact data={this.state.resumeData.main} />
+        <Footer data={this.state.resumeData.main} />
       </div>
     );
   }
