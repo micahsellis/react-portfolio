@@ -38,7 +38,7 @@ class App extends Component {
             "city": "Denver",
             "state": "CO"
           },
-          "website": "http://www.micahellis.codes",
+          "website": "http://www.micahellis.dev",
           "resumedownload": "/pdf/micah_ellis_resume.pdf",
           "social": [
             {
@@ -55,6 +55,12 @@ class App extends Component {
         },
         "resume": {
           "education": [
+            {
+              "school": "Colorado State University Global",
+              "degree": "BA Computer Science",
+              "graduated": "Expected graduation date: 2023",
+              "description": "3.0 GPA"
+            },
             {
               "school": "Auburn University of Montgomery",
               "degree": "Information Sciences",
