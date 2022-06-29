@@ -98,6 +98,13 @@ class App extends Component {
         "portfolio": {
           "projects": [
             {
+              "title": "So Sweet Southern Confections",
+              "category": "A small business website used to sell pecan praline treats to residents of the Denver metro area.",
+              "image": "sosweet.png",
+              "url": "https://www.getsosweet.com",
+              "giturl": "https://github.com/micahsellis/getsosweet"
+            },
+            {
               "title": "Get Hired",
               "category": "An app to help track your job search progress (ReactJS, MongoDB, NodeJS, ExpressJS, BootStrap)",
               "image": "pic01.png",
