@@ -11,7 +11,8 @@ class About extends Component {
       var state = this.props.data.address.state;
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
-      var email = this.props.data.email;
+       var email = this.props.data.email;
+       var networks = this.props.data.networks;
       var resumeDownload = this.props.data.resumedownload;
     }
 
