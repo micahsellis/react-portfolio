@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 class About extends Component {
   render() {
 
-    if(this.props.data){
+   if (this.props.data) {
+      console.log(this.props.data);
       var name = this.props.data.name;
       var profilepic= "images/"+this.props.data.image;
       var bio = this.props.data.bio;
@@ -12,49 +13,50 @@ class About extends Component {
       var zip = this.props.data.address.zip;
       var phone= this.props.data.phone;
       var email = this.props.data.email;
-      var networks = this.props.data.networks;
+      var networks = this.props.data.networks.map(function (network) {
+         return <li key={network.name}><a href={network.url}><i className={network.className}></i></a></li>
+      })
       var resumeDownload = this.props.data.resumedownload;
     }
 
     return (
       <section id="about">
-      <div className="row">
-         <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Micah Ellis Profile Pic" />
-         </div>
-         <div className="nine columns main-col">
-            <h2>About Me</h2>
+         <div className="row">
+            <div className="three columns">
+               <img className="profile-pic" src={profilepic} alt="Micah Ellis Profile Pic" />
+            </div>
+            <div className="nine columns main-col">
+               <h2>About Me</h2>
 
-            <p>{bio}</p>
-                <div className="row">
-                   <div className="columns">
-                      <h2>My Top Programing Languages</h2>
-                      <p>Python &nbsp; Django &nbsp; JavaScript &nbsp; ReactJS &nbsp; NodeJS &nbsp; Materialize &nbsp; Bootstrap &nbsp; HTML(ES6) &nbsp; CSS</p>
-                   </div></div>
-            <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
+               <p>{bio}</p>
+                  <div className="row">
+                     <div className="columns">
+                        <h2>My Top Programing Languages</h2>
+                        <p>Python &nbsp; Django &nbsp; JavaScript &nbsp; ReactJS &nbsp; NodeJS &nbsp; Materialize &nbsp; Bootstrap &nbsp; HTML(ES6) &nbsp; CSS</p>
+                     </div>
+                  </div>
+               <div className="row">
+                  <div className="columns contact-details">
+                     <h2>Contact Details</h2>
+                     <p className="address">
+                        <span>{name}</span><br />
+                        <span>{city} {state}, {zip}</span><br />
+                        <span>{phone}</span><br />
+                        <span>{email}</span>
+                     </p>
+                  </div>
+                  <div className="columns download">
+                     <p>
+                        <a target="_blank" rel="noopener noreferrer" href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
+                     </p>
+                     <ul className="social">
+                        {networks}
+                     </ul>
+                  </div>
                </div>
-               <div className="columns download">
-                  <p>
-                         <a target="_blank" rel="noopener noreferrer" href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
-                      </p>
-                      <ul className="social">
-                         {networks}
-                      </ul>
-               </div>
-                </div>
+            </div>
          </div>
-      </div>
-
-   </section>
+      </section>
     );
   }
 }
