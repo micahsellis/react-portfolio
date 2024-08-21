@@ -103,31 +103,17 @@ class App extends Component {
               "giturl": "https://github.com/micahsellis/getsosweet"
             },
             {
-              "title": "Get Hired",
-              "category": "An app to help track your job search progress (ReactJS, MongoDB, NodeJS, ExpressJS, BootStrap)",
-              "image": "pic01.png",
-              "url": "https://get-hired-now.herokuapp.com",
-              "giturl": "https://github.com/micahsellis/Get-Hired"
-            },
-            {
-              "title": "Line Guide",
-              "category": "Save time by checking how long the wait is to get in anywhere (Django, Python, YelpAPI, PostgreSQL, AmazonWebServices, Materialize)",
-              "image": "pic02.png",
-              "url": "https://lineguide.herokuapp.com",
-              "giturl": "https://github.com/micahsellis/lineguide"
-            },
-            {
               "title": "Drink Machine",
               "category": "Find new cocktail recipes or submit your own! (MongoDB, NodeJS, ExpressJS, Materialize, Google OAuth)",
               "image": "pic03.png",
-              "url": "https://drinks-machine.herokuapp.com",
+              "url": "https://drink-machine.onrender.com",
               "giturl": "https://github.com/micahsellis/Drink-Machine"
             },
             {
               "title": "Mongoose Flights",
               "category": "A flight tracker built on the mongoose platform (Mongoose, MongoDB, NodeJS, ExpressJS, CSS3)",
               "image": "pic04.png",
-              "url": "https://mongooseflights.herokuapp.com",
+              "url": "https://mongoose-flights-3yzc.onrender.com",
               "giturl": "https://github.com/micahsellis/mongoose-flights"
             },
             {
@@ -136,6 +122,20 @@ class App extends Component {
               "image": "pic05.png",
               "url": "https://micahsellis.github.io/Connect4/",
               "giturl": "https://github.com/micahsellis/Connect4"
+            },
+            {
+              "title": "TEMPORARILY UNAVAILABLE",
+              "category": "Get Hired - An app to help track your job search progress (ReactJS, MongoDB, NodeJS, ExpressJS, BootStrap)",
+              "image": "pic01.png",
+              "url": "https://get-hired-now.herokuapp.com",
+              "giturl": "https://github.com/micahsellis/Get-Hired"
+            },
+            {
+              "title": "TEMPORARILY UNAVAILABLE",
+              "category": "Line Guide - Save time by checking how long the wait is to get in anywhere (Django, Python, YelpAPI, PostgreSQL, AmazonWebServices, Materialize)",
+              "image": "pic02.png",
+              "url": "https://lineguide.herokuapp.com",
+              "giturl": "https://github.com/micahsellis/lineguide"
             }
           ]
         },
