@@ -55,9 +55,9 @@ class App extends Component {
           "education": [
             {
               "school": "Colorado State University Global",
-              "degree": "BA Computer Science",
-              "graduated": "Expected graduation date: 2023",
-              "description": "3.0 GPA"
+              "degree": "BS Computer Science",
+              "graduated": "2024",
+              "description": "3.3 GPA"
             },
             {
               "school": "Auburn University of Montgomery",
@@ -74,21 +74,27 @@ class App extends Component {
           ],
           "work": [
             {
+              "company": "Verizon Wireless",
+              "title": "Support Specialist",
+              "years": "2022 - 2023",
+              "description": "Investigated the root cause of system and device issues and devised efficient solutions. Multitasked between troubleshooting, sales, and support in a dynamic environment. Generated revenue by identifying needs and offered solutions catered for the customer."
+            },
+            {
               "company": "General Assembly Immersive Program",
-              "title": "Software Engineering Immersive",
-              "years": "July 2020 - October 2020",
-              "description": "Three-month, 500-hour full-time and full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies."
+              "title": "Software Engineering Developer Intern",
+              "years": "2020 - 2021",
+              "description": "500-hour full-time and full-stack program conducted in a remote setting, providing experience with the latest front- and back-end programming languages, tools, and methodologies."
             },
             {
               "company": "Goodwill Industries",
               "title": "Store Manager",
-              "years": "October 2013 - July 2020",
+              "years": "2013 - 2020",
               "description": "Built and deployed employee scheduling template using Excel based on payroll dollars to all locations. Won 7 Platinum Performer awards for revenue and contribution growth."
             },
             {
               "company": "Target Corporation",
               "title": "Executive Team Lead",
-              "years": "September 2004 - October 2013",
+              "years": "2004 - 2013",
               "description": "Strategically reduced store expenditures by lowering the cost of supplies and lowering on the job injuries. Achieved record sales at various locations for multiple months throughout career."
             }
           ]
